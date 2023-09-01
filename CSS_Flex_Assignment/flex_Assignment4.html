@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      body {
+        display: flex;
+        width: auto;
+        justify-content: space-evenly;
+      }
+      #col1{
+        padding-top: 10px;
+        background-color: lightpink;
+      }
+      #col2 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 10px;
+        background-color: lightpink;
+      }
+
+      button {
+        /* margin-right: 1132px; */
+        float: left;
+        margin-top: 5px;
+        width: 15%;
+        float: left;
+        color:rgb(11, 11, 11);
+        background-color: red;
+        padding: 10px 15px;
+        border: none;
+      }
+      input{
+        margin-bottom: 10px;
+        height: 15%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="col1">
+      <div>Message</div>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="15"
+        placeholder="Message"
+      ></textarea>
+    </div>
+    <div id="col2">
+      <div>Name</div>
+      <input type="text">
+      <div>Town were you born in</div>
+      <input type="text">
+      <div>Email Address</div>
+      <input type="text">
+      <button type="submit">submit</button>
+    </div>
+    
+  </body>
+</html>

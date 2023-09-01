@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignement 3</title>
+</head>
+<style>
+    body{
+        padding-top: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    table{
+        width: 100%;
+        background-color: pink;
+    }
+    tr,td{
+        display: flex;
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        float: right;
+    }
+    button{
+        margin-left: auto;
+        float: right;
+        color:rgb(11, 11, 11);
+        background-color: hsl(159, 25%, 50%);
+        padding: 10px 15px;
+        border: none;
+    }
+  
+</style>
+<body>
+    <table>
+        <tbody>
+        <tr class="tr1">
+            <td><label for="cust_name">Name</label></td>
+            <td><input type="text" name="cust_name" id="cust_name"></td>    
+        </tr>
+
+        <tr class="tr2">
+            <td><label for="cust_born">Town were you born in</label></td>
+            <td><input type="text" name="cust_born" id="cust_born"></td>
+        </tr>
+
+        <tr class="tr3">
+            <td><label for="cust_email">Email Address</label></td>
+            <td><input type="text" name="cust_email" id="cust_email"></td>
+        </tr>
+
+        <tr class="button">
+            <td> <button type="submit">Submit</button></td>
+        </tr>
+        </tbody>
+    </table>        
+    </form>
+</body>
+</html>
